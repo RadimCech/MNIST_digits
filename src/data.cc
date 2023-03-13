@@ -1,8 +1,14 @@
 #include "data.hpp"
 
 
+    data::data()
+    {
+        feature_vector = new std::vector<uint8_t>;
+    }
+    data::~data()
+    {
 
-
+    }
 
     void data::set_feature_vector(std::vector<uint8_t> *vect)
     {
@@ -34,7 +40,7 @@
 
     uint8_t data::get_label()
     {
-        return label
+        return label;
     }
 
     uint8_t data::get_enumerated_label()
