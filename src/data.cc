@@ -38,6 +38,11 @@
 
     }
 
+    void data::set_distance(double val)
+    {
+        distance = val;
+    }
+
     uint8_t data::get_label()
     {
         return label;
@@ -51,4 +56,9 @@
     std::vector<uint8_t> * data::get_feature_vector()
     {
         return feature_vector;
+    }
+
+    double data::get_distance()
+    {
+        return distance;
     }

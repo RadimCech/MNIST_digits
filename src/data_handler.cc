@@ -191,7 +191,7 @@ std::vector<data *> * data_handler::get_validation_data()
 
 
 
-
+/*
 int main()
 {
   
@@ -201,3 +201,4 @@ int main()
    dh->split_data();
    dh->count_classes();
 }
+*/
